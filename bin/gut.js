@@ -44,7 +44,7 @@ if (hebrewCommands[firstArg]) {
   } else {
     gitArgs = [translated, ...args.slice(1)];
   }
-  console.log(`🕎 ${firstArg} => git ${gitArgs.join(' ')}`);
+  console.log(`${firstArg} => git ${gitArgs.join(' ')}`);
 }
 
 // Run git with translated arguments
